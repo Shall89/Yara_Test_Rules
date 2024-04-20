@@ -1,7 +1,7 @@
 Updated Rule
 rule Alert_Reg_Language_Check {
 	meta:
-		author = "Steven Hall"
+		author = "The Professor"
 		date =  "20APR2023"
 	strings:
 		$command = "reg query"
@@ -24,7 +24,7 @@ Old Rule
 
 rule Alert_Reg_Language_Check {
 	meta:
-		author = "Steven Hall"
+		author = "The Professor"
 		date =  "10/3/2023"
 	strings:
 		$command = "reg query"
